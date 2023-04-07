@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&family=Source+Sans+Pro:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color: red;
+    width: 15vw;
+    font-family: 'Roboto', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+height: 100vh;
+
+}
+
+.sidebar nav{
+    padding: 45px;
+}
+
+.sidebar nav li{
+    list-style-type: none;
+    font-size: 20px;
+    padding: 35px 0;
+}
+
+.main{
+    background-color: yellow;
+    width: 90vw;
+}
+
+.container{
+    display: flex;
+
+}
+
+.infoContainer{
+    background-color: rgb(255, 0, 157);
+    height: 60vh;
+    width:  70vw;
+    margin: 120px auto;
+    display: flex;
+}
